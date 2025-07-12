@@ -18,6 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        gaming: "bg-gradient-primary text-foreground hover:shadow-neon transition-all duration-300 font-semibold",
+        tournament: "bg-gaming-purple text-foreground hover:bg-gaming-purple/80 hover:shadow-purple transition-all duration-300",
+        winner: "bg-gaming-orange text-background hover:bg-gaming-orange/80 transition-all duration-300 font-bold",
       },
       size: {
         default: "h-10 px-4 py-2",
